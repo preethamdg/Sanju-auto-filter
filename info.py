@@ -17,12 +17,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://envs.sh/gY0.jpeg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/gY0.jpeg https://envs.sh/gii.jpg https://graph.org/file/1c1a3cb814cd719ae3bd3.jpg https://graph.org/file/ccf3cbc4687263ac63420.jpg')).split()
 
 
 # Admins & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2089142494').split()] # For Multiple Id Use One Space Between Each.
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]  # For Multiple Id Use One Space Between Each.
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '2089142494').split()]  # For Multiple Id Use One Space Between Each.
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
@@ -91,7 +91,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/premiumeer')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+FOxMauI5h880ODA1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'BOT Support ❤️') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+j2Qc6RmfBA8wZTI1')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sanjudg01')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -113,7 +113,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://tnlinks.in')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'tnlinks.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5d2cccf0bfdf0b16384bf4ee01a04288c67faa19')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+FOxMauI5h880ODA1')
 
