@@ -246,9 +246,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+    CAPTION = "⚡<b>File uploaded by [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)</b>⚡\n\nName: {file_caption} \n\n⚙️ <b>Size: </b><code>{file_size}</code> \n\n🔥  ↭ <b>Join Now [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)</b> ↭  🔥")
+    
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
