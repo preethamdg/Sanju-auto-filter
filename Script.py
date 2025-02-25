@@ -246,13 +246,13 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>⚡File uploaded by [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)<b>
+    CAPTION = """<b>⚡File uploaded by [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)⚡<b>
 
 <b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
 <b>⚙️ sɪᴢᴇ : {file_size}
 
-<b>⚡File uploaded by [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)</b>"""
+<b>🔥File uploaded by [DVITTALKANNADAMOVIE™](https://t.me/DVITTALKANNADAMOVIE)🔥</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
