@@ -1957,7 +1957,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://github.com/VJBots/VJ-FILTER-BOT")
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://t.me/DVITTALKANNADAMOVIE")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -2220,7 +2220,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVJ01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2261,7 +2261,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2277,7 +2277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "song":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2318,7 +2318,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sticker":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2334,7 +2334,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tamil_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2350,7 +2350,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "english_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2366,7 +2366,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "hindi_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2382,7 +2382,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "telugu_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2398,7 +2398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "malayalam_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2414,7 +2414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "urdu_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2430,7 +2430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "bangladesh_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2446,7 +2446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "kannada_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2462,7 +2462,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "gujarati_info":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/DVITTAL_bot")
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -2887,14 +2887,14 @@ async def manual_filters(client, message, text=False):
                                 else:
                                     try:
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                                     except KeyError:
                                         grpid = await active_connection(str(message.from_user.id))
                                         await save_group_settings(grpid, 'auto_delete', True)
                                         settings = await get_settings(message.chat.id)
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                             except KeyError:
                                 grpid = await active_connection(str(message.from_user.id))
@@ -2932,14 +2932,14 @@ async def manual_filters(client, message, text=False):
                                 else:
                                     try:
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                                     except KeyError:
                                         grpid = await active_connection(str(message.from_user.id))
                                         await save_group_settings(grpid, 'auto_delete', True)
                                         settings = await get_settings(message.chat.id)
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                             except KeyError:
                                 grpid = await active_connection(str(message.from_user.id))
@@ -2974,14 +2974,14 @@ async def manual_filters(client, message, text=False):
                             else:
                                 try:
                                     if settings['auto_delete']:
-                                        await asyncio.sleep(600)
+                                        await asyncio.sleep(300)
                                         await joelkb.delete()
                                 except KeyError:
                                     grpid = await active_connection(str(message.from_user.id))
                                     await save_group_settings(grpid, 'auto_delete', True)
                                     settings = await get_settings(message.chat.id)
                                     if settings['auto_delete']:
-                                        await asyncio.sleep(600)
+                                        await asyncio.sleep(300)
                                         await joelkb.delete()
                         except KeyError:
                             grpid = await active_connection(str(message.from_user.id))
@@ -3016,14 +3016,14 @@ async def manual_filters(client, message, text=False):
                             else:
                                 try:
                                     if settings['auto_delete']:
-                                        await asyncio.sleep(600)
+                                        await asyncio.sleep(300)
                                         await joelkb.delete()
                                 except KeyError:
                                     grpid = await active_connection(str(message.from_user.id))
                                     await save_group_settings(grpid, 'auto_delete', True)
                                     settings = await get_settings(message.chat.id)
                                     if settings['auto_delete']:
-                                        await asyncio.sleep(600)
+                                        await asyncio.sleep(300)
                                         await joelkb.delete()
                         except KeyError:
                             grpid = await active_connection(str(message.from_user.id))
@@ -3084,14 +3084,14 @@ async def global_filters(client, message, text=False):
                                     else:
                                         try:
                                             if settings['auto_delete']:
-                                                await asyncio.sleep(600)
+                                                await asyncio.sleep(300)
                                                 await joelkb.delete()
                                         except KeyError:
                                             grpid = await active_connection(str(message.from_user.id))
                                             await save_group_settings(grpid, 'auto_delete', True)
                                             settings = await get_settings(message.chat.id)
                                             if settings['auto_delete']:
-                                                await asyncio.sleep(600)
+                                                await asyncio.sleep(300)
                                                 await joelkb.delete()
                                 except KeyError:
                                     grpid = await active_connection(str(message.from_user.id))
@@ -3141,14 +3141,14 @@ async def global_filters(client, message, text=False):
                                     else:
                                         try:
                                             if settings['auto_delete']:
-                                                await asyncio.sleep(600)
+                                                await asyncio.sleep(300)
                                                 await joelkb.delete()
                                         except KeyError:
                                             grpid = await active_connection(str(message.from_user.id))
                                             await save_group_settings(grpid, 'auto_delete', True)
                                             settings = await get_settings(message.chat.id)
                                             if settings['auto_delete']:
-                                                await asyncio.sleep(600)
+                                                await asyncio.sleep(300)
                                                 await joelkb.delete()
                                 except KeyError:
                                     grpid = await active_connection(str(message.from_user.id))
@@ -3196,14 +3196,14 @@ async def global_filters(client, message, text=False):
                                 else:
                                     try:
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                                     except KeyError:
                                         grpid = await active_connection(str(message.from_user.id))
                                         await save_group_settings(grpid, 'auto_delete', True)
                                         settings = await get_settings(message.chat.id)
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                             except KeyError:
                                 grpid = await active_connection(str(message.from_user.id))
@@ -3252,14 +3252,14 @@ async def global_filters(client, message, text=False):
                                 else:
                                     try:
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                                     except KeyError:
                                         grpid = await active_connection(str(message.from_user.id))
                                         await save_group_settings(grpid, 'auto_delete', True)
                                         settings = await get_settings(message.chat.id)
                                         if settings['auto_delete']:
-                                            await asyncio.sleep(600)
+                                            await asyncio.sleep(300)
                                             await joelkb.delete()
                             except KeyError:
                                 grpid = await active_connection(str(message.from_user.id))
